@@ -1011,6 +1011,8 @@ app.post("/postWithMedia", async (req, res) => {
   }
 });
 
+app.get("/health-check", (_, res) => res.json("Working on second Commit"));
+
 // Start the server
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
