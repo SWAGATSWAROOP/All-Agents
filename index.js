@@ -1011,7 +1011,7 @@ app.post("/postWithMedia", async (req, res) => {
   }
 });
 
-app.get("/health-check", (_, res) => res.json("Working on third Commit"));
+app.get("/health-check", (_, res) => res.json("Working on 4th Commit"));
 
 // Start the server
 app.listen(PORT, () => {
